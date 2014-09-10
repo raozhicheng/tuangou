@@ -1,0 +1,90 @@
+@charset "gb2312";
+/* CSS Document */
+
+body {
+	background-color:#4b4b4b;
+}
+#outer {
+	height:101px;
+	border-bottom:solid 1px #FFFFFF;
+	overflow:hidden;
+}
+#logo {
+	width:226px;
+	height:115px;
+	margin-top:-10px;
+	float:left;
+}
+#right_tool {
+	width:280px;
+	height:23px;
+	float:right;
+	padding:3px;
+	background-color:#696969;
+}
+#right_tool ul li {
+	width:100%;
+	height:23px;
+	float:left;
+	line-height:23px;
+	text-align:center;
+	list-style-type:none;
+	color: #c9ffd2;
+}
+#right_tool ul li a{
+	color:#c9ffd2;
+}
+#current_user {
+	width:200px;
+	height:26px;
+	float:left;
+	margin-top:30px;
+	padding:3px;
+	line-height:26px;
+	color:#FFFF00;
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+#current_user a{
+	color: #6C0;
+}
+#current_user a:hover{
+	color:#FF0;
+}
+#nav {
+	height:32px;
+	margin-top:69px;
+	margin-left:190px;
+}
+#nav ul li{
+	width:106px;
+	height:32px;
+	float:left;
+	margin-left:4px;
+	line-height:32px;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	background:url(../images/current.gif); background-position: 0px -32px;
+	list-style-type:none;
+	overflow:hidden;
+}
+#nav ul li a {
+	width:106px;
+	height:32px;
+	display:block;
+	color:#FFF;
+}
+#nav .nav_current {
+	background:url(../images/current.gif) no-repeat;
+	color:#4b4b4b;
+	
+}
+#nav .nav_current a{
+	color:#4b4b4b;
+	
+}
+
+#nav ul li a:hover {
+	color: #999999;
+}

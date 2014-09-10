@@ -1,0 +1,57 @@
+@charset "gb2312";
+/* CSS Document */
+
+/*–≈œ¢“≥*/
+#content_box .c_left .cart {
+	padding:10px;
+}
+#content_box .c_left .cart .tit{
+	height:35px;
+	line-height:35px;
+	border-bottom:1px dotted #ccc;
+	font-size:18px;
+	font-family:"microsoft yahei";
+	color:#F30;
+}
+#content_box .c_left .cart .f-input{
+	width:50px;
+	text-align:center;
+}
+
+#content_box .c_left .cart .content{
+	padding:10px;
+	line-height:25px;
+	font-size:14px;
+	color:#666;
+}
+#content_box .c_left .cart .content .cart_tit{
+	height:30px;
+	line-height:30px;
+	font-size:18px;
+	font-family:"microsoft yahei";
+	padding:8px;
+	color:#F60;
+}
+.cart_total_box{
+	padding:10px;
+	border-top:1px solid #F00;
+	border-bottom:1px solid #f00;
+	margin:20px 0px;
+	background:#FFF0F0;
+	text-align:right;
+	color:#333;
+	font-family:"microsoft yahei";
+	font-size:20px;
+}
+.cart_payment{
+	margin-bottom:20px;
+}
+#cart_submit{
+	height:60px;
+	line-height:60px;
+	border-top:4px double #ccc;
+}
+#cart_submit .formbutton{
+	width:100px;
+	height:35px;
+}

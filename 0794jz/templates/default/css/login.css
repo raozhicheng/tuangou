@@ -1,0 +1,37 @@
+@charset "gb2312";
+/* CSS Document */
+
+.reg_box{
+	padding:10px 20px;
+	margin:20px auto;
+	font-size:14px;
+	
+	border:1px solid #CCC;
+	background:#fff;
+}
+.reg_box ul li{
+	height:45px;
+	line-height:45px;
+}
+.reg_box ul li span{
+	float:left;
+}
+.reg_box ul li .t{
+	width:80px;
+	height:30px;
+	line-height:30px;
+	margin:5px;
+	display:block;
+	color:#666;
+}
+.reg_box ul li .i{
+	margin-top:5px;
+}
+
+.reg_box ul li .input_box{
+	border:1px solid #F90;
+	width:300px;
+	height:20px;
+	line-height:20px;
+	color:#999;
+}

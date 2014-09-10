@@ -1,0 +1,59 @@
+@charset "gb2312";
+/* CSS Document */
+
+/*ÓÊ¼þ¶©ÔÄÒ³*/
+#content_box .c_left .subscribe {
+	padding:10px;
+}
+#content_box .c_left .subscribe .tit{
+	height:35px;
+	line-height:35px;
+	border-bottom:1px dotted #F93;
+	font-size:18px;
+	font-family:"microsoft yahei";
+	color: #F30;
+}
+#content_box .c_left .subscribe .description{
+	padding:8px;
+	line-height:28px;
+	background:#EAEAEA;
+	font-size:14px;
+	margin-top:10px;
+	color:#666;
+	text-indent:2em;
+}
+#content_box .c_left .subscribe .content{
+	padding:8px;
+	margin-top:10px;
+	border:1px solid #F93;
+	background:#FFF;
+	font-size:12px;
+}
+
+#content_box .c_left .subscribe .mail_box{
+	width:280px;
+	float:left;
+	padding:20px 20px;
+
+}
+#content_box .c_left .subscribe .cities_box{
+	width:280px;
+	float:right;
+	padding:20px 20px;
+}
+#content_box .c_left .subscribe .cities_box .f-city{
+	width:200px;
+}
+#content_box .c_left .subscribe .mail_box div{
+	line-height:25px;
+}
+#content_box .c_left .subscribe .cities_box div{
+	line-height:25px;
+}
+#content_box .c_left .subscribe .content .submit_button{
+	margin-top:5px;
+}
+#content_box .c_left .subscribe .content .submit_button input{
+	width:100px;
+	height:30px;
+}

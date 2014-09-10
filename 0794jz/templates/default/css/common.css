@@ -1,0 +1,119 @@
+@charset "gb2312";
+/* CSS Document */
+
+/*ƒ⁄»›*/
+#content_box{
+	border:1px solid #bababa;
+	background: url(../images/body_bg.gif) repeat-y;
+	margin-top:10px;
+}
+#content_box .c_left{
+	float:left;
+	width:690px;
+}
+
+
+
+#content_box .c_left .pages{
+	height:35px;
+	text-align:right;
+}
+#content_box .c_left .pages ul li{
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	color:#666;
+	float:right;
+	margin-left:10px;
+	border:1px solid #ccc;
+	padding:0px 5px;
+	font-size:12px;
+}
+#content_box .c_left .pages ul li a{
+	width:60px;
+	height:25px;
+	color:#666;
+	display:block;
+	text-decoration:none;
+}
+#content_box .c_left .pages ul li a:hover{
+	text-decoration: underline;
+}
+#content_box .c_right{
+	float:left;
+	width:311px;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+#content_box .c_right .right_box{
+	width:242px;
+	border:1px solid #ccc;
+	background:#f4f4f4;
+	margin:0 auto;
+	
+	padding:3px;
+}
+#content_box .c_right .right_box .city_notice{
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	color:#666;
+}
+#content_box .c_right .right_box .title{
+	width:232px;
+	height:18px;
+	line-height:18px;
+	padding:5px;
+	background:#ebebeb;
+}
+#content_box .c_right .right_box .content{
+	padding:5px;
+	line-height:23px;
+}
+
+#content_box .c_right .line{
+	height:10px;
+}
+
+
+
+/*”“≤‡Õº±Í*/
+.right_icon_info{
+	width:16px;
+	height:16px;
+	background:url(../images/right_icon.gif) no-repeat 0px 0px;
+	margin:0px 5px;
+}
+.right_icon_pay{
+	width:16px;
+	height:16px;
+	background:url(../images/right_icon.gif) no-repeat -16px 0px;
+	margin:0px 5px;
+}
+
+.right_icon_attention{
+	width:16px;
+	height:16px;
+	background:url(../images/right_icon.gif) no-repeat -32px 0px;
+	margin:0px 5px;
+}
+.right_icon_user{
+	width:16px;
+	height:16px;
+	background:url(../images/right_icon.gif) no-repeat -48px 0px;
+	margin:0px 5px;
+}
+.right_icon_qa{
+	width:16px;
+	height:16px;
+	background:url(../images/right_icon.gif) no-repeat -64px 0px;
+	margin:0px 5px;
+}
+
+.red_alert{
+	font-size:18px;
+	font-weight:bold;
+	color:red;
+	padding:5px;
+}

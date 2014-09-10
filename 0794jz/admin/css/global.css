@@ -1,0 +1,44 @@
+@charset "gb2312";
+/* CSS Document */
+
+html {
+	height:100%;
+}
+body {
+	margin:0;
+	color: #fff;
+	font-size:12px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	height:100%;
+}
+a {
+	color: #333;
+	outline:none;
+	text-decoration: none
+}
+
+a:hover {
+	color: #666;
+	text-decoration: none
+}
+
+img{
+	border:none;
+}
+
+form,ul,li,h1,h2,h3,h4,h5{
+	margin:0px;
+	padding:0px;
+}
+#timer {
+	height:30px;
+	line-height:30px;
+	background-color:#f5f5f5;
+	text-align:center;
+	margin-top:5px;
+	border:solid 1px #CDCDCD;
+}
+.clear{
+	clear:both;
+}

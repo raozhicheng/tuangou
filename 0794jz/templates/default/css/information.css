@@ -1,0 +1,70 @@
+@charset "gb2312";
+/* CSS Document */
+
+/*״̬ҳ*/
+.information {
+	margin-top:50px;
+}
+.information .box_t{
+	height:23px;
+	background:url(../images/mess_box.gif) no-repeat;
+}
+.information .box_m{
+	height:300px;
+	background:url(../images/mess_box.gif) -1003px 0px repeat-y;
+	overflow:hidden;
+}
+.information .box_b{
+	height:23px;
+	background:url(../images/mess_box.gif) 0px -23px no-repeat;
+}
+.information .box_m .mess_bg{
+	height:210px;
+	width:997px;
+	margin:40px auto;
+	background:#fff;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+.information .box_m .mess_bg .mess{
+	width:600px;
+	height:150px;
+	margin:30px auto;
+}
+.information .box_m .mess_bg .mess .error_sign{
+	width:150px;
+	height:150px;
+	background:url(../images/error_success.jpg) no-repeat;
+	float:left;	
+}
+.information .box_m .mess_bg .mess .success_sign{
+	width:150px;
+	height:150px;
+	background:url(../images/error_success.jpg) -150px 0px no-repeat;
+	float:left;
+}
+.information .box_m .mess_bg .mess .error_content{
+	width:450px;
+	height:150px;
+	line-height:150px;
+	text-align:center;
+	font-size:30px;
+	font-family:"microsoft yahei";
+	color:#C00;
+	float:left;
+}
+.information .box_m .mess_bg .mess .success_content{
+	width:438px;
+	height:150px;
+	line-height:150px;
+	text-align:center;
+	font-size:30px;
+	font-family:"microsoft yahei";
+	color:#3C0;
+	float:left;
+}
+.copyright{
+	text-align:center;
+	color:#C00;
+	margin:20px auto;
+}

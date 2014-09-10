@@ -1,0 +1,60 @@
+@charset "gb2312";
+/* CSS Document */
+
+/*信息页*/
+#content_box .c_left .infos {
+	padding:10px;
+}
+#content_box .c_left .infos .tit{
+	height:35px;
+	line-height:35px;
+	border-bottom:1px dotted #ccc;
+	font-size:18px;
+	font-family:"microsoft yahei";
+	color:#000;
+}
+#content_box .c_left .infos ul li{
+	font-size:14px;
+	height:35px;
+	line-height:35px;
+	text-indent:0.5em;
+	border-bottom:1px dotted #ccc;
+}
+#content_box .c_left .infos ul li a{
+	height:35px;
+	display:block;
+	text-decoration:none;
+	color:#666;
+}
+#content_box .c_left .infos ul li a:hover{
+	background:#ECECEA;
+}
+
+/*信息详细页*/
+#content_box .c_left .info {
+	padding:10px;
+}
+#content_box .c_left .info .tit{
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	font-size:20px;
+	color:#F00;
+	font-family:"microsoft yahei";
+	border-bottom:1px dotted #F00;
+	overflow:hidden;
+}
+#content_box .c_left .info .date{
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	font-size:12px;
+	color:#333;
+	
+}
+#content_box .c_left .info .content{
+	padding:10px;
+	line-height:25px;
+	font-size:14px;
+	color:#666;
+}

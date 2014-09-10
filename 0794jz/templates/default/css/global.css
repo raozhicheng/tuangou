@@ -1,0 +1,33 @@
+@charset "gb2312";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0px;
+	background:#e1e1e1;
+	font-family: Arial, Helvetica, sans-serif;
+}
+form,ul,h1,h2,h3,h4,h5,h6,dl,dd,dt,li,span{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+img {
+	border:none;
+}
+.body_area{
+	width:1003px;
+	margin:0 auto;
+}
+li{
+	list-style-type:none;
+}
+.clear{
+	clear:both;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}

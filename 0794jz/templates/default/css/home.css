@@ -1,0 +1,316 @@
+@charset "gb2312";
+/* CSS Document */
+/*内容*/
+#content_box{
+	border:1px solid #bababa;
+	background: url(../images/body_bg.gif) repeat-y;
+	margin-top:10px;
+}
+#content_box .c_left{
+	float:left;
+	width:690px;
+	min-height:500px;
+	
+}
+/*首页左侧团购信息*/
+#content_box .c_left .deal_info{
+	padding:5px;
+}
+#content_box .c_left .deal_info dl{
+	border-bottom:1px  dotted #ccc;
+	padding-bottom:15px;
+	margin:10px 0px;
+}
+#content_box .c_left .deal_info dl dt{
+	text-align:center;
+	padding:10px;
+}
+#content_box .c_left .deal_info dl dt h1{
+	font-family:"simhei";
+	font-size:27px;
+}
+#content_box .c_left .deal_info dl dd .deal_left{
+	width:240px;
+}
+#content_box .c_left .deal_info dl dd .deal_left .mark_box{
+	position:relative;
+	height:87px;
+}
+#content_box .c_left .deal_info dl dd .deal_left .mark_box .mark_bg{
+	position:absolute;
+	left:-19px;
+    top:0px;
+	width:243px;
+	height:91px;
+	background:url(../images/mark_bg.png) no-repeat;
+}
+#content_box .c_left .deal_info dl dd .deal_left .mark_box .mark_bg .price{
+	width:116px;
+	height:76px;
+	text-align:center;
+	line-height:76px;
+	color:#fff;
+	font-size:25px;
+}
+#content_box .c_left .deal_info dl dd .deal_left .mark_box  .mark_bg .deal_button_box{
+	width:119px;
+	height:54px;
+	float:left;
+	background:url(../images/deal_button_bg.png) no-repeat;
+	margin-top:10px;
+	text-align:center;
+	line-height:54px;
+	font-family:"simhei";
+}
+
+#content_box .c_left .deal_info dl dd .deal_left .price_box{
+	width:218px;
+	height:66px;
+	margin-left:4px;
+	border:1px solid #ccc;
+	font-size:12px;
+	color:#C00;
+	background:#fffaef;
+}
+#content_box .c_left .deal_info dl dd .deal_left .counter_box{
+	width:208px;
+	height:56px;
+	margin-left:4px;
+	border:1px solid #ccc;
+	margin-top:10px;
+	padding:5px;
+	background:#fffaef;
+}
+#content_box .c_left .deal_info dl dd .deal_left .mess_box{
+	width:208px;
+	padding:5px;
+	border:1px solid #ccc;
+	margin-top:10px;
+	margin-left:4px;
+	text-align:center;
+	background:#fffaef;
+}
+#content_box .c_left .deal_info dl dd .deal_left .mess_box .not_start{
+	font-size:15px;
+	color:#F60;
+	line-height:27px;
+}
+#content_box .c_left .deal_info dl dd .deal_left .mess_box .deal_buy_tip_top{
+	font-size:16px;
+	font-family:"simhei";
+	padding:5px;
+}
+#content_box .c_left .deal_info dl dd .deal_left .mess_box .deal_buy_tip_notice{
+	line-height:22px;
+	color:#666;
+	padding:5px;
+	
+}
+#content_box .c_left .deal_info dl dd .deal_left .mess_box .deal_buy_on{
+	width:170px;
+	height:45px;
+	text-align:right;
+	font-size:18px;
+	font-family:"simhei";
+	margin:10px 0px;
+	background:url(../images/deal_buy_success.png) left left no-repeat;
+}
+#content_box .c_left .deal_info dl dd .deal_left .mess_box .deal_buy_time_tip{
+	font-size:12px;
+	line-height:22px;
+	color:#666;
+}
+#content_box .c_left .deal_info dl dd .deal_left .mess_box .progress_box{
+	width:198px;
+	padding:5px;
+	background:#eee9db;
+}
+#content_box .c_left .deal_info dl dd .deal_left .mess_box .progress_box .bar{
+	height:6px;
+	background:#F00;
+	float:left;
+
+}
+#content_box .c_left .deal_info dl dd .deal_left .mess_box .progress_box .range{
+	margin-top:3px;
+	font-size:12px;
+	color:#F00;
+	border-top:1px dotted #fffaef;
+}
+#content_box .c_left .deal_info dl dd .deal_left .counter_box .time_logo{
+	width:34px;
+	height:55px;
+	background:url(../images/time_logo.png) no-repeat;
+	float:left;
+	margin-left:5px;
+}
+#content_box .c_left .deal_info dl dd .deal_left .counter_box .time_text{
+	float:left;
+	font-size:14px;
+	color:#C00;
+	margin-top:5px;
+	margin-left:10px;
+	line-height:22px;
+}
+
+#content_box .c_left .deal_info dl dd .deal_right{
+	width:420px;
+	margin-right:8px;
+	
+}
+#content_box .c_left .deal_info dl dd .deal_right .img{
+	border:1px solid #ccc;
+	width:415px;
+	height:274px;
+}
+#content_box .c_left .deal_info dl dd .deal_right img{
+	width:415px;
+	height:274px;
+}
+#content_box .c_left .deal_info dl dd .deal_right .brief{
+	margin-top:10px;
+	font-size:14px;
+	color:#666;
+	line-height:25px;
+	text-indent:1em;
+}
+
+#content_box .c_left .pages{
+	height:35px;
+	text-align:right;
+}
+#content_box .c_left .pages ul li{
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	color:#666;
+	float:right;
+	margin-left:10px;
+	border:1px solid #ccc;
+	padding:0px 5px;
+	font-size:12px;
+}
+#content_box .c_left .pages ul li a{
+	width:60px;
+	height:25px;
+	color:#666;
+	display:block;
+	text-decoration:none;
+}
+#content_box .c_left .pages ul li a:hover{
+	text-decoration: underline;
+}
+#content_box .c_right{
+	float:left;
+	width:311px;
+	padding-top:30px;
+}
+
+#content_box .c_right .right_box{
+	width:242px;
+	border:1px solid #ccc;
+	background:#f4f4f4;
+	margin:0 auto;
+	
+	padding:3px;
+}
+#content_box .c_right .right_box .city_notice{
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	color:#666;
+}
+#content_box .c_right .right_box .title{
+	width:232px;
+	height:18px;
+	line-height:18px;
+	padding:5px;
+	background:#ebebeb;
+}
+#content_box .c_right .right_box .content{
+	padding:5px;
+	line-height:23px;
+}
+
+#content_box .c_right .line{
+	height:10px;
+}
+
+/*友情链接*/
+#links{
+	margin-top:10px;
+	*display:inline;
+}
+#links fieldset{
+	padding:8px;
+	margin:0;
+	border:1px solid #bababa;
+}
+#links fieldset legend{
+	font-size:14px;
+	font-family:"microsoft yahei";
+	
+}
+#links fieldset .content ul li{
+	float:left;
+	margin-right:11px;
+	margin-bottom:10px;
+	width:86px;
+	height:29px;
+}
+/*底部*/
+#bottom{
+	margin-top:10px;
+	height:260px;
+	background:url(../images/bottom_bg.jpg) ;
+	background-size: cover;
+	overflow:hidden;
+}
+#bottom .infos{
+	height:121px;
+	/*background:#004a8a;*/
+	margin-top:40px;
+}
+#bottom .infos dl{
+	float:left;
+	width:175px;
+	height:100px;
+	padding:10px;
+}
+#bottom .infos .split_line{
+	width:2px;
+	height:120px;
+	/*background:url(../images/line.png) no-repeat;*/
+	float:left;
+}
+#bottom .infos dl dt{
+	text-align:center;
+	height:27px;
+	line-height:27px;
+	font-size:14px;
+	font-family:"microsoft yahei";
+	color:#b8c3d2;
+}
+#bottom .infos dl dd{
+	width:130px;
+	line-height:20px;
+	float:right;
+}
+#bottom .infos_bottom_line{
+	height:19px;
+	/*background:url(../images/infos_bottom_line.jpg) no-repeat;*/
+}
+#bottom .copyright{
+	height:80px;
+	width:967px;
+	margin-left:18px;
+	text-align:center;
+	color:#fff;
+	font-size:12px;
+	padding-top:20px;
+}
+/*广告*/
+.ad_box{
+	border:1px solid #ccc;
+	margin-top:10px;
+}

@@ -1,0 +1,104 @@
+@charset "gb2312";
+/* CSS Document */
+
+/*payment_pay.tpl*/
+#content_box .c_left .payment {
+	padding:10px;
+}
+#content_box .c_left .payment .tit{
+	height:45px;
+	line-height:45px;
+	border-bottom:1px dotted #F60;
+	font-size:22px;
+	font-family:"microsoft yahei";
+	color:#F00;
+}
+#content_box .c_left .payment .notice_sn{
+	height:80px;
+	line-height:80px;
+	text-align:center;
+	border-bottom:1px #F60 dotted;
+	background:#FFF;
+	font-size:20px;
+	font-family:"microsoft yahei";
+}
+#content_box .c_left .payment .pay_button{
+	margin:30px 0px;
+	text-align:center;
+	font-size:14px;
+}
+#content_box .c_left .payment .pay_button .return{
+	margin-left:80px;
+	margin-top:30px;
+	margin-right:30px;
+}
+#content_box .c_left .payment .pay_button .myorder{
+	margin-left:30px;
+	margin-top:30px;
+}
+#content_box .c_left .payment .pay_button a{
+	color:#36C;
+	text-decoration:none;
+	font-weight:bold;
+}
+#content_box .c_left .payment .pay_button a:hover{
+	color:#0CC;
+}
+#content_box .c_left .payment .pay_button .paybutton{
+	width:300px;
+	height:80px;
+	font-size:14px;
+}
+#content_box .c_left .payment .price{
+	text-align:center;
+	height:30px;
+	line-height:30px;
+	font-size:20px;
+	font-family:"microsoft yahei";
+	color:#fff;
+	background:#79BAE1;
+	border-bottom:1px #105CC5 dotted;
+	border-top:1px #105CC5 dotted;
+}
+
+/*payment_done.tpl*/
+#content_box .c_left .payment .mess{
+	height:120px;
+	line-height:120px;
+	text-align:center;
+	border-bottom:1px #F60 solid;
+	border-top:1px #F60 solid;
+	background:#FEF5E7;
+	font-size:35px;
+	font-family:"microsoft yahei";
+	color:#C00;
+	margin-top:20px;
+	
+}
+#content_box .c_left .deal_info{
+	padding:8px;
+}
+#content_box .c_left .deal_info .deal_box{
+	border-bottom:1px  dotted #ccc;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	font-size:14px;
+	color:#F63
+}
+#content_box .c_left .coupon{
+	padding:10px;
+	width:650px;
+	margin:0 auto;
+	background:#EFEFEF;
+	line-height:25px;
+}
+#content_box .c_left .coupon .tit{
+	font-size:15px;
+	color:#333;
+	font-family:"microsoft yahei";
+	font-weight:bold;
+}
+#content_box .c_left .coupon .content{
+	font-size:12px;
+}

@@ -1,0 +1,106 @@
+@charset "gb2312";
+/* CSS Document */
+
+/*Ã÷¬€“≥*/
+#content_box .c_left .message {
+	padding:10px;
+}
+#content_box .c_left .message .tit{
+	line-height:35px;
+}
+#content_box .c_left .message .tit ul{
+	height:35px;
+	border-bottom:1px solid #ccc;
+}
+#content_box .c_left .message .tit ul li{
+	float:left;
+	margin-right:5px;
+	width:100px;
+	height:34px;
+	border-left:1px solid #ccc;
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+	text-align:center;
+	background:#EAEAEA;
+}
+#content_box .c_left .message .tit ul li a{
+	text-decoration:none;
+	font-size:14px;
+	color:#5b5b5b;
+	display:block;
+}
+#content_box .c_left .message .tit ul li a:hover{
+	text-decoration:underline;
+}
+#content_box .c_left .message .tit .cur{
+	float:left;
+	margin-right:5px;
+	width:100px;
+	height:35px;
+	border-left:1px solid #ccc;
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+	text-align:center;
+	background: url(../images/cur_bg.jpg) repeat-x;;
+	
+}
+#content_box .c_left .message .content{
+	border-left:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+	background:#fff;
+	padding:10px;
+	font-size:14px;
+	color:#666;
+}
+#content_box .c_left .message .content .mess_box{
+	padding:10px;
+	width:620px;
+	margin:0 auto;
+	background:#F2F2F2;
+	margin-bottom:10px;
+	border:1px solid #ccc;
+	border-bottom:5px solid #ccc;
+}
+#content_box .c_left .message .content .mess_box .title{
+	height:35px;
+	line-height:35px;
+	border-bottom:1px dotted #999;
+	color:#900;
+	font-size:12px;
+}
+#content_box .c_left .message .content .mess_box .con{
+	font-size:14px;
+	padding:10px;
+	border:1px solid #ccc;
+	background:#fff;
+	margin:10px 0px;
+	color:#F00;
+}
+#content_box .c_left .message .content .mess_box .reply{
+	height:35px;
+	line-height:35px;
+	border-top:1px dotted #999;
+	color:#900;
+	font-size:14px;
+}
+#content_box .c_left  .message_form{
+	border:1px solid #ccc;
+	background:#fff;
+	padding:10px;
+	margin:10px 0px;
+	font-size:14px;
+	color:#666;
+}
+#content_box .c_left .message .tit ul .cur a{
+	color:#ff9000;
+	font-weight:bold;
+	display:block;
+}
+.message_form ul li{
+	margin-bottom:10px;
+}
+.message_form .formbutton{
+	width:100px;
+	height:30px;
+}

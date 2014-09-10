@@ -1,0 +1,64 @@
+@charset "gb2312";
+/* CSS Document */
+/*-----size-----*/
+.f12 {
+	font-size:12px;
+}
+.f12b{
+	font-size:12px;
+	font-weight:bold;
+}
+.f14{
+	font-size:14px;
+}
+.f18{
+	font-size:18px;
+}
+.f14b{
+	font-size:14px;
+	font-weight:bold;
+}
+.f25b{
+	font-size:25px;
+	font-weight:bold;
+}
+/*-----normal-----*/
+.black_n{
+	color:#333;
+}
+.red_n{
+	color:#F00;
+}
+.grey_n{
+	color:#666;
+}
+/*-----link-----*/
+
+.black_l a{
+	color:#333;
+	text-decoration:none;
+}
+.black_l a:hover{
+	color:#666;
+}
+.white_l a{
+	color:#fff;
+	text-decoration:none;
+}
+.white_l a:hover{
+	color:#CCC;
+}
+.light_blue_l a{
+	color:#b8c3d3;
+	text-decoration:none;
+}
+.light_blue_l a:hover{
+	color:#cdd9eb;
+}
+.red_l a{
+	color:#F00;
+	text-decoration:none;
+}
+.red_l a:hover{
+	color:#C00;
+}
